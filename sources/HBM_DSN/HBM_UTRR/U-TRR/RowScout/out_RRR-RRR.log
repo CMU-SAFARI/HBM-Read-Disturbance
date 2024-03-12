@@ -1,0 +1,28 @@
+Specified row range exceeds the number of rows in the DRAM module. Adjusting the range accordingly.
+Specified: 16384, actual num rows: 16384
+Opened /dev/xdma0_h2c_0 -> 4
+Opened /dev/xdma0_c2h_0 -> 5
+Successfully reset the FPGA!
+Profiling with 64 ms retention time
+[32m[0 s] Found 0 new (0 total) row groups[0m
+Profiling with 128 ms retention time
+[32m[0 s] Found 0 new (0 total) row groups[0m
+Profiling with 192 ms retention time
+[32m[0 s] Found 0 new (0 total) row groups[0m
+Profiling with 256 ms retention time
+[32m[0 s] Found 0 new (0 total) row groups[0m
+Profiling with 320 ms retention time
+[32m[1 s] Found 0 new (0 total) row groups[0m
+Profiling with 384 ms retention time
+[32m[1 s] Found 0 new (0 total) row groups[0m
+Profiling with 448 ms retention time
+[32m[2 s] Found 0 new (0 total) row groups[0m
+Profiling with 512 ms retention time
+[32m[2 s] Found 0 new (0 total) row groups[0m
+Profiling with 576 ms retention time
+[32m[3 s] Found 0 new (0 total) row groups[0m
+Profiling with 640 ms retention time
+[32m[4 s] Found 0 new (0 total) row groups[0m
+Profiling with 704 ms retention time
+[32m[5 s] Found 0 new (0 total) row groups[0m
+Profiling with 768 ms retention time

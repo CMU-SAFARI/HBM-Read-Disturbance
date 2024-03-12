@@ -1,0 +1,2 @@
+sudo ./TRRAnalyzer --out results/numdummy_8-800/rg_1-ham1000-ref17-refinit_1088.txt --row_scout_file out_R-R.txt --num_row_groups 1 --row_layout RAR --num_rounds 1 --num_iterations 32 --hammers_per_round 1000 --cascaded_hammer  --hammer_rgs_individually  --refs_per_round 17 --init_only_victims  --row_group_indices 4 --refs_after_init 1088 --num_dummy_after_init 0 --hammer_dummies_independently  --hammer_dummies_first  --dummy_hammers_per_round 800 --num_dummy_aggrs 8 --log_phys_scheme 1
+Opened /dev/xdma0_h2c_0 -> 4

@@ -1,0 +1,286 @@
+sudo ./TRRAnalyzer --out results/numdummy_0-0/rg_3-ham100_150_50-ref17-refinit_1088.txt --row_scout_file out_R-R.txt --num_row_groups 3 --row_layout RAR --num_rounds 1 --num_iterations 32 --hammers_per_round 100 150 50 --cascaded_hammer  --hammer_rgs_individually  --refs_per_round 17 --init_only_victims  --row_group_indices 3 4 5 --refs_after_init 1088 --num_dummy_after_init 0 --hammer_dummies_independently  --hammer_dummies_first  --dummy_hammers_per_round 0 --num_dummy_aggrs 0 --log_phys_scheme 1
+Opened /dev/xdma0_h2c_0 -> 4
+Opened /dev/xdma0_c2h_0 -> 5
+Successfully reset the FPGA!
+Dummy rows (while hammering): 
+
+Num hammerable row sets: 3
+Hammerable row set 0
+Victims: 1814, 1822, 
+Aggressors: 1815 (100), 
+Unified Rows: 
+Hammerable row set 1
+Victims: 2933, 2935, 
+Aggressors: 2934 (150), 
+Unified Rows: 
+Hammerable row set 2
+Victims: 4648, 4656, 
+Aggressors: 4649 (50), 
+Unified Rows: 
+tRAS: 24 cycles
+--- SoftMCProg: Initializing Victims and Aggressors ---
+0000: PRE r0 PALL 0 : NOP 0 : NOP 0 : NOP 0
+0001: LI r4 32
+0002: LI r3 1
+0003: LI r0 1
+0004: LI r5 1814
+0005: LI r7 4294967295
+0006: LDWD 0 r7
+0007: LI r7 4294967295
+0008: LDWD 1 r7
+0009: LI r7 4294967295
+0010: LDWD 2 r7
+0011: LI r7 4294967295
+0012: LDWD 3 r7
+0013: LI r7 4294967295
+0014: LDWD 4 r7
+0015: LI r7 4294967295
+0016: LDWD 5 r7
+0017: LI r7 4294967295
+0018: LDWD 6 r7
+0019: LI r7 4294967295
+0020: LDWD 7 r7
+0021: ACT r3 r5 0 : NOP 0 : NOP 0 : NOP 0
+0022: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0023: LI r6 0
+INIT_ROW2
+0024: WR r3 r6++ 0 : NOP 0 : NOP 0 : NOP 0
+0025: BL PC:24 r6 r4 (TARGET LABEL: INIT_ROW2)
+0026: PRE r3 0 : NOP 0 : NOP 0 : NOP 0
+0027: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0028: LI r5 1822
+0029: ACT r3 r5 0 : NOP 0 : NOP 0 : NOP 0
+0030: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0031: LI r6 0
+INIT_ROW3
+0032: WR r3 r6++ 0 : NOP 0 : NOP 0 : NOP 0
+0033: BL PC:32 r6 r4 (TARGET LABEL: INIT_ROW3)
+0034: PRE r3 0 : NOP 0 : NOP 0 : NOP 0
+0035: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0036: LI r3 1
+0037: LI r0 1
+0038: LI r8 2933
+0039: LI r10 4294967295
+0040: LDWD 0 r10
+0041: LI r10 4294967295
+0042: LDWD 1 r10
+0043: LI r10 4294967295
+0044: LDWD 2 r10
+0045: LI r10 4294967295
+0046: LDWD 3 r10
+0047: LI r10 4294967295
+0048: LDWD 4 r10
+0049: LI r10 4294967295
+0050: LDWD 5 r10
+0051: LI r10 4294967295
+0052: LDWD 6 r10
+0053: LI r10 4294967295
+0054: LDWD 7 r10
+0055: ACT r3 r8 0 : NOP 0 : NOP 0 : NOP 0
+0056: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0057: LI r9 0
+INIT_ROW4
+0058: WR r3 r9++ 0 : NOP 0 : NOP 0 : NOP 0
+0059: BL PC:58 r9 r4 (TARGET LABEL: INIT_ROW4)
+0060: PRE r3 0 : NOP 0 : NOP 0 : NOP 0
+0061: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0062: LI r8 2935
+0063: ACT r3 r8 0 : NOP 0 : NOP 0 : NOP 0
+0064: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0065: LI r9 0
+INIT_ROW5
+0066: WR r3 r9++ 0 : NOP 0 : NOP 0 : NOP 0
+0067: BL PC:66 r9 r4 (TARGET LABEL: INIT_ROW5)
+0068: PRE r3 0 : NOP 0 : NOP 0 : NOP 0
+0069: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0070: LI r3 1
+0071: LI r0 1
+0072: LI r11 4648
+0073: LI r13 4294967295
+0074: LDWD 0 r13
+0075: LI r13 4294967295
+0076: LDWD 1 r13
+0077: LI r13 4294967295
+0078: LDWD 2 r13
+0079: LI r13 4294967295
+0080: LDWD 3 r13
+0081: LI r13 4294967295
+0082: LDWD 4 r13
+0083: LI r13 4294967295
+0084: LDWD 5 r13
+0085: LI r13 4294967295
+0086: LDWD 6 r13
+0087: LI r13 4294967295
+0088: LDWD 7 r13
+0089: ACT r3 r11 0 : NOP 0 : NOP 0 : NOP 0
+0090: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0091: LI r12 0
+INIT_ROW6
+0092: WR r3 r12++ 0 : NOP 0 : NOP 0 : NOP 0
+0093: BL PC:92 r12 r4 (TARGET LABEL: INIT_ROW6)
+0094: PRE r3 0 : NOP 0 : NOP 0 : NOP 0
+0095: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0096: LI r11 4656
+0097: ACT r3 r11 0 : NOP 0 : NOP 0 : NOP 0
+0098: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0099: LI r12 0
+INIT_ROW7
+0100: WR r3 r12++ 0 : NOP 0 : NOP 0 : NOP 0
+0101: BL PC:100 r12 r4 (TARGET LABEL: INIT_ROW7)
+0102: PRE r3 0 : NOP 0 : NOP 0 : NOP 0
+0103: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0104: END
+--- SoftMCProg: Issuing REFs ---
+0000: LI r3 1088
+0001: LI r4 0
+0002: PRE r0 PALL 0 : NOP 0 : NOP 0 : NOP 0
+0003: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0004: NOP 0 : NOP 0 : NOP 0 : NOP 0
+ISSUE_REFS8
+0005: REF 0 : NOP 0 : NOP 0 : NOP 0
+0006: SLEEP 1289 cycles
+0007: ADDI r4 r4 1
+0008: BL PC:5 r4 r3 (TARGET LABEL: ISSUE_REFS8)
+0009: LI r5 0
+0010: LI r6 0
+0011: LI r7 0
+0012: Auto-generated instruction.
+0013: ACT r5 r6 0 : NOP 0 : NOP 0 : NOP 0
+0014: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0015: RD r5 r7 0 : NOP 0 : NOP 0 : NOP 0
+0016: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0017: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0018: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0019: PRE r5 0 : NOP 0 : NOP 0 : NOP 0
+0020: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0021: END
+Weak row retention time (ms): 576
+Time to complete hammering phase (ms): 0.036561
+--- SoftMCProg: Hammering the Aggressor Rows ---
+0000: LI r3 1
+0001: PRE r3 PALL 0 : NOP 0 : NOP 0 : NOP 0
+0002: LI r4 0
+0003: LI r5 1
+HAMMER_MAIN_LOOP9
+0004: LI r3 1
+0005: LI r6 1815
+0006: LI r8 100
+0007: LI r7 0
+ROWHAMMERING10
+0008: ACT r3 r6 0 : NOP 0 : NOP 0 : NOP 0
+0009: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0010: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0011: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0012: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0013: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0014: PRE r3 0 : NOP 0 : NOP 0 : NOP 0
+0015: ADDI r7 r7 1
+0016: BL PC:8 r7 r8 (TARGET LABEL: ROWHAMMERING10)
+0017: LI r6 2934
+0018: LI r8 150
+0019: LI r7 0
+ROWHAMMERING11
+0020: ACT r3 r6 0 : NOP 0 : NOP 0 : NOP 0
+0021: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0022: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0023: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0024: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0025: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0026: PRE r3 0 : NOP 0 : NOP 0 : NOP 0
+0027: ADDI r7 r7 1
+0028: BL PC:20 r7 r8 (TARGET LABEL: ROWHAMMERING11)
+0029: LI r6 4649
+0030: LI r8 50
+0031: LI r7 0
+ROWHAMMERING12
+0032: ACT r3 r6 0 : NOP 0 : NOP 0 : NOP 0
+0033: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0034: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0035: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0036: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0037: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0038: PRE r3 0 : NOP 0 : NOP 0 : NOP 0
+0039: ADDI r7 r7 1
+0040: BL PC:32 r7 r8 (TARGET LABEL: ROWHAMMERING12)
+0041: LI r9 17
+0042: LI r10 0
+PER_CYCLE_REFS13
+0043: REF 0 : NOP 0 : NOP 0 : NOP 0
+0044: SLEEP 78 cycles
+0045: ADDI r10 r10 1
+0046: BL PC:43 r10 r9 (TARGET LABEL: PER_CYCLE_REFS13)
+0047: ADDI r4 r4 1
+0048: BL PC:4 r4 r5 (TARGET LABEL: HAMMER_MAIN_LOOP9)
+0049: END
+--- SoftMCProg: Reading the Victim rows ---
+0000: PRE r3 PALL 0 : NOP 0 : NOP 0 : NOP 0
+0001: LI r4 32
+0002: LI r3 1
+0003: LI r0 1
+0004: LI r5 1814
+0005: ACT r3 r5 0 : NOP 0 : NOP 0 : NOP 0
+0006: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0007: LI r6 0
+READ_ROW14
+0008: Auto-generated instruction.
+0009: RD r3 r6++ 0 : NOP 0 : NOP 0 : NOP 0
+0010: BL PC:8 r6 r4 (TARGET LABEL: READ_ROW14)
+0011: PRE r3 0 : NOP 0 : NOP 0 : NOP 0
+0012: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0013: LI r5 1822
+0014: ACT r3 r5 0 : NOP 0 : NOP 0 : NOP 0
+0015: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0016: LI r7 0
+READ_ROW15
+0017: Auto-generated instruction.
+0018: RD r3 r7++ 0 : NOP 0 : NOP 0 : NOP 0
+0019: BL PC:17 r7 r4 (TARGET LABEL: READ_ROW15)
+0020: PRE r3 0 : NOP 0 : NOP 0 : NOP 0
+0021: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0022: LI r3 1
+0023: LI r0 1
+0024: LI r8 2933
+0025: ACT r3 r8 0 : NOP 0 : NOP 0 : NOP 0
+0026: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0027: LI r9 0
+READ_ROW16
+0028: Auto-generated instruction.
+0029: RD r3 r9++ 0 : NOP 0 : NOP 0 : NOP 0
+0030: BL PC:28 r9 r4 (TARGET LABEL: READ_ROW16)
+0031: PRE r3 0 : NOP 0 : NOP 0 : NOP 0
+0032: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0033: LI r8 2935
+0034: ACT r3 r8 0 : NOP 0 : NOP 0 : NOP 0
+0035: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0036: LI r10 0
+READ_ROW17
+0037: Auto-generated instruction.
+0038: RD r3 r10++ 0 : NOP 0 : NOP 0 : NOP 0
+0039: BL PC:37 r10 r4 (TARGET LABEL: READ_ROW17)
+0040: PRE r3 0 : NOP 0 : NOP 0 : NOP 0
+0041: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0042: LI r3 1
+0043: LI r0 1
+0044: LI r11 4648
+0045: ACT r3 r11 0 : NOP 0 : NOP 0 : NOP 0
+0046: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0047: LI r12 0
+READ_ROW18
+0048: Auto-generated instruction.
+0049: RD r3 r12++ 0 : NOP 0 : NOP 0 : NOP 0
+0050: BL PC:48 r12 r4 (TARGET LABEL: READ_ROW18)
+0051: PRE r3 0 : NOP 0 : NOP 0 : NOP 0
+0052: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0053: LI r11 4656
+0054: ACT r3 r11 0 : NOP 0 : NOP 0 : NOP 0
+0055: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0056: LI r13 0
+READ_ROW19
+0057: Auto-generated instruction.
+0058: RD r3 r13++ 0 : NOP 0 : NOP 0 : NOP 0
+0059: BL PC:57 r13 r4 (TARGET LABEL: READ_ROW19)
+0060: PRE r3 0 : NOP 0 : NOP 0 : NOP 0
+0061: NOP 0 : NOP 0 : NOP 0 : NOP 0
+0062: END
+[##>-------------------------------------------------------------------] 3% 0.701s[####>-----------------------------------------------------------------] 6% 1.402s[######>---------------------------------------------------------------] 9% 2.104s[########>-------------------------------------------------------------] 12% 2.806s[##########>-----------------------------------------------------------] 15% 3.508s[#############>--------------------------------------------------------] 18% 4.208s[###############>------------------------------------------------------] 21% 4.91s[#################>----------------------------------------------------] 25% 5.611s[###################>--------------------------------------------------] 28% 6.312s[#####################>------------------------------------------------] 31% 7.013s[########################>---------------------------------------------] 34% 7.714s[##########################>-------------------------------------------] 37% 8.415s[############################>-----------------------------------------] 40% 9.116s[##############################>---------------------------------------] 43% 9.818s[################################>-------------------------------------] 46% 10.52s[###################################>----------------------------------] 50% 11.221s[#####################################>--------------------------------] 53% 11.923s[#######################################>------------------------------] 56% 12.624s[#########################################>----------------------------] 59% 13.326s[###########################################>--------------------------] 62% 14.028s[#############################################>------------------------] 65% 14.729s[################################################>---------------------] 68% 15.431s[##################################################>-------------------] 71% 16.132s[####################################################>-----------------] 75% 16.832s[######################################################>---------------] 78% 17.534s[########################################################>-------------] 81% 18.236s[###########################################################>----------] 84% 18.936s[#############################################################>--------] 87% 19.638s[###############################################################>------] 90% 20.34s[#################################################################>----] 93% 21.042s[###################################################################>--] 96% 21.744s[######################################################################] 100% 22.445s[######################################################################] 100% 22.445s
+The test has finished!

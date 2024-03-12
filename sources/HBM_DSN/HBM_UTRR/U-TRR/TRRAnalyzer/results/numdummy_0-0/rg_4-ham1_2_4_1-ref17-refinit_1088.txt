@@ -1,0 +1,153 @@
+Iteration 0 bitflips:
+Victim row 1814: 1
+Victim row 1822: 1
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Iteration 1 bitflips:
+Victim row 1814: 0
+Victim row 1822: 0
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Iteration 2 bitflips:
+Victim row 1814: 0
+Victim row 1822: 0
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Iteration 3 bitflips:
+Victim row 1814: 1
+Victim row 1822: 1
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Iteration 4 bitflips:
+Victim row 1814: 1
+Victim row 1822: 1
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Iteration 5 bitflips:
+Victim row 1814: 0
+Victim row 1822: 0
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Iteration 6 bitflips:
+Victim row 1814: 0
+Victim row 1822: 0
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Iteration 7 bitflips:
+Victim row 1814: 1
+Victim row 1822: 1
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Iteration 8 bitflips:
+Victim row 1814: 1
+Victim row 1822: 1
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Iteration 9 bitflips:
+Victim row 1814: 0
+Victim row 1822: 0
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Iteration 10 bitflips:
+Victim row 1814: 0
+Victim row 1822: 0
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Iteration 11 bitflips:
+Victim row 1814: 1
+Victim row 1822: 1
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Iteration 12 bitflips:
+Victim row 1814: 1
+Victim row 1822: 1
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Iteration 13 bitflips:
+Victim row 1814: 0
+Victim row 1822: 0
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Iteration 14 bitflips:
+Victim row 1814: 0
+Victim row 1822: 0
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Iteration 15 bitflips:
+Victim row 1814: 1
+Victim row 1822: 1
+Victim row 2933: 1
+Victim row 2935: 1
+Victim row 4648: 1
+Victim row 4656: 1
+Victim row 7411: 1
+Victim row 7413: 1
+Total bitflips:
+Victim row 1814: 8
+Victim row 1822: 8
+Victim row 2933: 16
+Victim row 2935: 16
+Victim row 4648: 16
+Victim row 4656: 16
+Victim row 7411: 16
+Victim row 7413: 16

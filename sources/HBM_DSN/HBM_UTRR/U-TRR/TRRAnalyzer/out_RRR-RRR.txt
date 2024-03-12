@@ -1,0 +1,174 @@
+{
+    "row_group" : [
+        {
+            "row_id" : 6106,
+            "bitflip_locs" : [
+                6579
+            ]
+        },
+        {
+            "row_id" : 6107,
+            "bitflip_locs" : [
+                4111
+            ]
+        },
+        {
+            "row_id" : 6104,
+            "bitflip_locs" : [
+                245
+            ]
+        },
+        {
+            "row_id" : 6112,
+            "bitflip_locs" : [
+                5798
+            ]
+        },
+        {
+            "row_id" : 6113,
+            "bitflip_locs" : [
+                3775
+            ]
+        },
+        {
+            "row_id" : 6114,
+            "bitflip_locs" : [
+                5672
+            ]
+        }
+    ],
+    "bank_id" : 1,
+    "ret_ms" : 1088,
+    "data_pattern_type" : 1
+}
+{
+    "row_group" : [
+        {
+            "row_id" : 9085,
+            "bitflip_locs" : [
+                7994
+            ]
+        },
+        {
+            "row_id" : 9082,
+            "bitflip_locs" : [
+                2252,
+                2609,
+                7530
+            ]
+        },
+        {
+            "row_id" : 9083,
+            "bitflip_locs" : [
+                5129
+            ]
+        },
+        {
+            "row_id" : 9081,
+            "bitflip_locs" : [
+                3292
+            ]
+        },
+        {
+            "row_id" : 9088,
+            "bitflip_locs" : [
+                5278
+            ]
+        },
+        {
+            "row_id" : 9089,
+            "bitflip_locs" : [
+                4641
+            ]
+        }
+    ],
+    "bank_id" : 1,
+    "ret_ms" : 1152,
+    "data_pattern_type" : 1
+}
+{
+    "row_group" : [
+        {
+            "row_id" : 11107,
+            "bitflip_locs" : [
+                6625
+            ]
+        },
+        {
+            "row_id" : 11108,
+            "bitflip_locs" : [
+                2448
+            ]
+        },
+        {
+            "row_id" : 11109,
+            "bitflip_locs" : [
+                3567
+            ]
+        },
+        {
+            "row_id" : 11111,
+            "bitflip_locs" : [
+                7160
+            ]
+        },
+        {
+            "row_id" : 11118,
+            "bitflip_locs" : [
+                3540
+            ]
+        },
+        {
+            "row_id" : 11119,
+            "bitflip_locs" : [
+                554
+            ]
+        }
+    ],
+    "bank_id" : 1,
+    "ret_ms" : 1152,
+    "data_pattern_type" : 1
+}
+{
+    "row_group" : [
+        {
+            "row_id" : 8382,
+            "bitflip_locs" : [
+                4711
+            ]
+        },
+        {
+            "row_id" : 8383,
+            "bitflip_locs" : [
+                6710
+            ]
+        },
+        {
+            "row_id" : 8380,
+            "bitflip_locs" : [
+                5222
+            ]
+        },
+        {
+            "row_id" : 8378,
+            "bitflip_locs" : [
+                5727
+            ]
+        },
+        {
+            "row_id" : 8379,
+            "bitflip_locs" : [
+                2351
+            ]
+        },
+        {
+            "row_id" : 8376,
+            "bitflip_locs" : [
+                3865
+            ]
+        }
+    ],
+    "bank_id" : 1,
+    "ret_ms" : 1216,
+    "data_pattern_type" : 1
+}
