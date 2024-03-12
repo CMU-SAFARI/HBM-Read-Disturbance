@@ -6,7 +6,7 @@ We experimentally demonstrate the effects of read disturbance (RowHammer and Row
 
 ### Artifact Abstract
 
-Our artifact contains the data, source code, and scripts needed to reproduce our results, including all figures in the paper. We provide original characterization data from our real-chip characterization and source code of the DRAM Bender programs used to perform the characterization. We provide Python scripts and Jupyter Notebooks to analyze and plot the results.
+Our artifact contains the data, source code, and scripts needed to reproduce our results, including all figures in the paper. We provide original characterization data from our real-chip characterization as well as source code of the DRAM Bender programs used to perform the characterization. *We urge the artifact evaluator(s) to start early as we expect comprehensively reproducing all experimental data for one HBM2 chip to take approximately 3 weeks*. We provide Python scripts and Jupyter Notebooks to analyze and plot the results.
 
 ### Artifact Prerequisites
 
