@@ -1,12 +1,39 @@
-# DSN 2024 Artifact for Read Disturbance in High Bandwidth Memory: A Detailed Experimental Study on HBM2 DRAM Chips
+# Read Disturbance in High Bandwidth Memory: A Detailed Experimental Study on HBM2 DRAM Chips
 
-### Paper Abstract
+<p align=center>
+<img src="https://img.shields.io/badge/Origin-Academic%20Code-C1ACA0.svg" alt="Academic Code">
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+<img src="https://img.shields.io/badge/Contributions-welcome-lightgray.svg" alt="Contributions Welcome">
+<a href="https://arxiv.org/pdf/2310.14665.pdf"><img src="https://img.shields.io/badge/cs.CR-2310.14665-b31b1b?logo=arxiv&logoColor=red" alt="Preprint: arXiv"> </a>
+</p>
+
+<p align=center>
+<img src="https://dsn2024uq.github.io/images/dsn2024_artifact.png" alt="Code and data reproduced" width="600">
+</p>
 
 We experimentally demonstrate the effects of read disturbance (RowHammer and RowPress) and uncover the inner workings of undocumented read disturbance defense mechanisms in High Bandwidth Memory (HBM). Detailed characterization of six real HBM2 DRAM chips shows that (1) the read disturbance vulnerability significantly varies between different HBM2 chips and between different components (e.g., 3D-stacked channels) inside a chip. (2) The DRAM rows at the end and in the middle of a bank are more resilient to read disturbance. (3) Fewer additional activations are sufficient to induce more read disturbance bitflips in a DRAM row if the row exhibits the first bitflip at a relatively high activation count. (4) A modern HBM2 chip implements undocumented read disturbance defenses that track potential aggressor rows based on how many times they are activated. We describe how our findings could be leveraged to develop more powerful read disturbance attacks and more efficient defense mechanisms.
 
+## Cite our paper
+
+Please cite the following paper if you find our work useful:
+
+Ataberk Olgun, Majd Osseiran, Abdullah Giray Yaglikci, Yahya Can Tugrul, Haocong Luo, Steve Rhyner, Behzad Salami, Juan Gomez Luna, Onur Mutlu, "Read Disturbance in High Bandwidth Memory: A Detailed Experimental Study on HBM2 DRAM Chips", To appear in DSN 2024, June 2024.
+
+Link to the PDF: [https://arxiv.org/pdf/2310.14665.pdf](https://arxiv.org/pdf/2310.14665.pdf)
+
+BibTeX format for your convenience:
+```
+@inproceedings{olgun2024read,
+      title={{Read Disturbance in High Bandwidth Memory: A Detailed Experimental Study on HBM2 DRAM Chips}}, 
+      author={Olgun, Ataberk and Osseiran, Majd and Yaglikci, A. Giray and Tugrul, Yahya Can and Luo, Haocong and Rhyner, Steve and Salami, Behzad and Luna, Juan Gomez and Mutlu, Onur},
+      year={2024},
+      booktitle={DSN}
+}
+```
+
 ### Artifact Abstract
 
-Our artifact contains the data, source code, and scripts needed to reproduce our results, including all figures in the paper. We provide original characterization data from our real-chip characterization as well as source code of the DRAM Bender programs used to perform the characterization. *We urge the artifact evaluator(s) to start early as we expect comprehensively reproducing all experimental data for one HBM2 chip to take approximately 3 weeks*. We provide Python scripts and Jupyter Notebooks to analyze and plot the results.
+Our artifact contains the data, source code, and scripts needed to reproduce our results, including all figures in the paper. We provide original characterization data from our real-chip characterization as well as source code of the DRAM Bender programs used to perform the characterization. We provide Python scripts and Jupyter Notebooks to analyze and plot the results.
 
 ### Artifact Prerequisites
 
@@ -52,22 +79,6 @@ To reproduce our real-DRAM characterization results (figures) using the provided
 
 ## Artifact Usage
 
-We describe two methods of using our artifact: 1) remote access, 2) personal computer. First, the artifact evaluator remotely accesses (anonymously) our infrastructure (an x86 machine with one HBM2-based DRAM Bender setup) during the artifact evaluation process to reproduce our results. Second, the artifact evaluator reproduces the results using their own HBM2-based DRAM Bender setup. We strongly recommend that the evaluator uses the first method. Please contact us through HotCRP and/or the artifact evaluation (AE) committee for details. 
-
-### Remote access
-
-SSH into safari-fpga56 using the instructions provided via AE committee or HotCRP.
-
-**Reproducing figures from existing characterization data.** All experimental data presented in the paper is in `fast_forward_data` directory. We provide `create_figures.ipynb` Jupyter notebook that the evaluator can use to replot all figures from existing data.
-
-**Reproducing all characterization data for Chip 2.** This machine is connected to a DRAM Bender setup that contains Chip 2. 
-
-One artifact evaluator at a time can run all characterization experiments described in the paper for Chip 2. 
-
-1) Run `./simple_test.sh` to verify that the infrastructure works correctly. A successful run outputs `0 out of 2147483648 bytes have errors, last pattern: <random_value>` on the last line.
-2) Run `./run_all_experiments.sh` to perform all characterization experiments. We expect this to take approximately *3 weeks*. When the script successfully finishes, all reproduced characterization data gets copied to `fast_forward_data/safari-fpga56-new`.
-3) Use the `create_figures_with_new_data.ipynb` Jupyter notebook to reproduce Figures 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, and 15 in the paper, substituting existing characterization results for Chip 2 with the newly-generated characterization results. 
-
 ### Personal computer
 
 Please follow the steps below in your system that closely resembles the one described earlier in this file (in Hardware Requirements) to install DRAM Bender.
@@ -109,3 +120,5 @@ You could run all characterization experiments described in the paper on your HB
 2) Run `./run_all_experiments.sh` to perform all characterization experiments. We expect this to take approximately *3 weeks*. When the script successfully finishes, all reproduced characterization data gets copied to `fast_forward_data/safari-fpga56-new`.
 3) Use the `create_figures_with_new_data.ipynb` Jupyter notebook to reproduce Figures 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, and 15 in the paper, substituting existing characterization results for Chip 2 with the newly-generated characterization results. 
 
+## Contacts:
+Ataberk Olgun (ataberk.olgun [at] safari [dot] ethz [dot] ch)  
