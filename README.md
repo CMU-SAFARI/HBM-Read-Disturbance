@@ -110,7 +110,7 @@ If you have installed ubuntu using `apt install libboost-all-dev`, you only need
 
 #### Running experiments
 
-**Reproducing figures from existing characterization data.** All experimental data presented in the paper is in `fast_forward_data` directory. We provide `create_figures.ipynb` Jupyter notebook that the evaluator can use to replot all figures from existing data.
+**Reproducing figures from existing characterization data.** All experimental data presented in the paper is in our [Zenodo repository](https://zenodo.org/records/10257930). Extract `all_data_dsn_ae.tar.bz2` into fast_forward_data directory. We provide `create_figures.ipynb` Jupyter notebook that the reader can use to replot all figures from existing data.
 
 **Running experiments on your HBM2 chip.** 
 
